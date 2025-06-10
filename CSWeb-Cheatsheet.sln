@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BasicAuth", "BasicAuth\Basi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExternalAuth", "ExternalAuth\ExternalAuth.csproj", "{FCDD49A5-16C3-4F85-AF95-ED1F6B3443FE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Blazor", "Blazor\Blazor.csproj", "{CDCEC42D-1686-4F02-AAA1-2CED5E196FEE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,5 +26,9 @@ Global
 		{FCDD49A5-16C3-4F85-AF95-ED1F6B3443FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FCDD49A5-16C3-4F85-AF95-ED1F6B3443FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FCDD49A5-16C3-4F85-AF95-ED1F6B3443FE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CDCEC42D-1686-4F02-AAA1-2CED5E196FEE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CDCEC42D-1686-4F02-AAA1-2CED5E196FEE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CDCEC42D-1686-4F02-AAA1-2CED5E196FEE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CDCEC42D-1686-4F02-AAA1-2CED5E196FEE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
