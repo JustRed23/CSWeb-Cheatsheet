@@ -1,4 +1,16 @@
+using BasicAuth.Data;
+using Microsoft.AspNetCore.Identity;
+using Microsoft.EntityFrameworkCore;
+
 var builder = WebApplication.CreateBuilder(args);
+
+// Db Context
+builder.Services.AddDbContext<BasicAuthDbContext>(options =>
+    options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
+
+// Identity
+builder.Services.AddIdentity<IdentityUser, IdentityRole>()
+    .AddEntityFrameworkStores<BasicAuthDbContext>();
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
